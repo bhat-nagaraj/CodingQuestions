@@ -17,7 +17,7 @@ public class Main
 	            int value=hmap.get(c)+1;
 	            hmap.put(c,value);
 	        }
-	        else
+	        else if(c!=' ')
 	        {
 	            hmap.put(c,1);
 	        }
